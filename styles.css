@@ -1,17 +1,78 @@
-ul{
-    list-style-type: none;
-    display: flex;
-    
-}
 
 a{
     text-decoration: none;
 }
 
-li{
-    display: flex;
-    width: 100%;
+
+input{
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    width: 450px;
+    height: 40px;
+    border-width: 1px;
+    border-color: rgb(230, 234, 240);
     
+}
+
+/*.top-nav-left{
+    padding: 30px 10px 0px 20px;
+
+}
+
+.top-nav-right{
+
+    /*padding: 30px 10px 0px 20px;
+    position: relative;
+    left: 80%;
+    justify-content: flex-end;
+}*/
+
+#top-nav{
+
+    
+}
+
+#top-nav-left{
+    list-style-type: none;
+    display: flex;
+    font-size: 14px;
+}
+
+#top-nav-right{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 14px;
+    justify-c
+}
+
+#sign-in-button{
+    /*position: absolute;
+    right: 30px;
+    top: 20px;
+    */
+    background-color: rgb(68,133,243);
+    color: white;
+    padding: 8px;
+    border-radius: 5%;
+    width: 75px;
+}
+
+#google-logo-img{
+    display: block;
+    margin: auto;
+    margin-top: 175px;
+}
+
+
+#footer-nav{
+    list-style-type: none;
+    display: flex;
+    background-color: rgb(242,242,242);
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+
 }
 
 

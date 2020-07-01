@@ -2,34 +2,53 @@
     <head>
         <meta charset="UTF-8">
         <title>Google</title>
-        <link rel="stylesheet" href="styles.css">
-        
+        <link rel="stylesheet" type="text/css" href="reset.css">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <meta name="description" content="The Google home page.">
     </head>
     <body>
         <header>
-            <div>
-                <nav class="top-nav">
-                    <ul>
-                        <li class="navigation1"><a href="">About</a></li></a>
-                        <li class="navigation1"><a href="">Store</a></li>
-                        <li class="navigation2"><a href="">Gmail</a></li>
-                        <li class="navigation2"><a href="">Images</a></li>
-                        <li><button>Sign In</button></li>
-                    </ul>
-                </nav>
-            </div>
+            <div id="top-nav">
+                <nav>
+                    <div>
+                        <ul id="top-nav-left">
+                            <li><a href="#">About</a></li></a>
+                            <li><a href="#">Store</a></li>
+                        </ul>
+                    </div> <!--top-nav-right-->
+                    <div>
+                        <ul id="top-nav-right">
+                            <li><a href="#">Gmail</a></li>
+                            <li><a href="#">Images</a></li>
+                            <button id="sign-in-button" type="button"><strong>Sign In</strong></button>
+                        </ul>
+                    </div> <!--top-nav-left-->
+                    </nav>
+            </div> <!--top-nav-->
         </header>
         <main>
-            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
-            <form>
+            <img id="google-logo-img" alt="google logo"src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+            <form id="search-bar">
                 <label for="google-search">
-                    <input name="google-search" type="text">
+                    <input type="search" name="google-search">
                 </label>
             </form>
+            
         </main>
             
  
         <footer>
+            <div>
+                <ul id="footer-nav">
+                    <li>Advertising</li>
+                    <li>Business</li>
+                    <li>How Search works</li>
+                    <li>Privacy</li>
+                    <li>Terms</li>
+                    <li>Settings</li>
+                </ul>
+
+            </div> <!--footer-nav-->
 
         </footer>
     </body>
