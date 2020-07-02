@@ -15,42 +15,34 @@ input{
     
 }
 
-/*.top-nav-left{
-    padding: 30px 10px 0px 20px;
+
+.top-li{
+    display: inline;
 
 }
 
-.top-nav-right{
-
-    /*padding: 30px 10px 0px 20px;
-    position: relative;
-    left: 80%;
-    justify-content: flex-end;
-}*/
-
-#top-nav{
-
-    
+#top-nav-div{
 }
 
-#top-nav-left{
-    list-style-type: none;
-    display: flex;
+#top-div-left{
     font-size: 14px;
+    display: inline-flex;
+
 }
 
-#top-nav-right{
-    display: flex;
-    justify-content: flex-end;
+#top-ul-left{
+    display: inline-flex;
+    align-items: center;
+    padding-left: 10px;
+    height: 35px;
+}
+
+#top-div-right{
+    display: inline-flex;
     font-size: 14px;
-    justify-c
 }
 
 #sign-in-button{
-    /*position: absolute;
-    right: 30px;
-    top: 20px;
-    */
     background-color: rgb(68,133,243);
     color: white;
     padding: 8px;
