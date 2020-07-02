@@ -1,0 +1,1 @@
+Mini Project: Make a page that looks like google.com but doesn't need to have the full search functionality.
